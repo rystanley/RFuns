@@ -3,6 +3,8 @@ make_map <- function(xyz,resolution=10,rasterFun=mean,facet=NULL,bathy=FALSE,
                    breaks=c(0.01,0.1,1,10,100),
                    labels=c(0.01,0.1,1,10,100)){
 
+#Convert xyz data into a raster plot using ggplot in the Northwest Atlantic
+  
 #Specify variables ------------
   
   #Plot returns a ggplot object
